@@ -2,9 +2,9 @@
 
 ## Full Step-by-Step guide with snapshots to describe and illustrate how an AWS EC2 Instance can start and stop at custom times
 
-### This project demonstrates how one can customize the timings of their choice to both start and stop an EC2 Instance.  In this project, we will be covering how to:
+### This project demonstrates how one can both test both the stopping and starting of an EC2 Instance as well as scheduling both a customized stop and start time for an EC2 Instance. In this project, we will be covering how to:
 
-* Create a Custom Policy in order.......
+* Create a Lambda Function in order to test both the stopping and starting of an EC2 Instance.
 
 
 
@@ -67,7 +67,7 @@ POLICIES
 
 
 
-LAMBDA
+LAMBDA TEST THE INSTANCE BOTH STARTING AND STOPPING
 
 * Select Lambda after typing it in AWS Searchbox
 
@@ -87,7 +87,33 @@ LAMBDA
 * Go back to the EC2 Instance Created Earlier and Copy the Instance ID 
 
 
-*  Scroll Down to Code Source and type the code (as I illustrated below). REMEMBER TO INSERT YOUR INSTANCE ID THAT WAS COPIED FROM EARLIER. (CIRCLED.)
+*  Scroll Down to Code Source and type the code (as I illustrated below). REMEMBER TO INSERT YOUR INSTANCE ID THAT WAS COPIED FROM EARLIER .
+
+* Click Test Button from the left side of the code source. Followed by Creating a New test> Give Your New Test and Select Save.
+
+* Click Deploy in order to deploy the Python Code that was written(as illustrated above)
+
+* Click Functions from Left-Handed-Options
+
+* Select the Function that was Created
+
+* Select the Test from the Actions Dropdown list
+
+* Go back to your Created Instance, Refresh the Instance and confirm that it says Stopping under Instance State.
+
+* REPEAT ALL THE STEPS RELATED TO LAMBDA FROM ABOVE. HOWEVER USE THE MODIFIED CODE IN CODE SOURCE(Illustrated Below.)
+
+CREATE CLOUDWATCH AUTOMATIC SCHEDULE:
+
+* Search for Cloudwatch from the AWS Searchbox & Select it.
+
+* Select View Events on the Cloudwatch Page
+
+* Select Create Rule 
+  
+  
+
+  
 
 
  
