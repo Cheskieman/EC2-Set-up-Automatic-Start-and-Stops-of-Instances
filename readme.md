@@ -103,13 +103,44 @@ LAMBDA TEST THE INSTANCE BOTH STARTING AND STOPPING
 
 * REPEAT ALL THE STEPS RELATED TO LAMBDA FROM ABOVE. HOWEVER USE THE MODIFIED CODE IN CODE SOURCE(Illustrated Below.)
 
-CREATE CLOUDWATCH AUTOMATIC SCHEDULE:
+
+CREATE A CLOUDWATCH SCHEDULE TO STOP THE INSTANCE AT A CUSTOM TIME AUTOMATICALLY :
 
 * Search for Cloudwatch from the AWS Searchbox & Select it.
 
 * Select View Events on the Cloudwatch Page
 
-* Select Create Rule 
+* Select Create Rule
+
+* Give your rule a name
+
+*Switch the Rule Type to Schedule
+
+* On the bottom, Select Continue to Create Rule
+
+* In the schedule pattern dialog box, set the time for the instance to stop automatically at your desired future time (using the format shown in the image below).
+
+* Click Next at the bottom of the page.
+
+* In the Select a Target dropdown box, select Lambda Function
+
+* In the function dropdown box, select stop instance(created earlier when creating the Lambda Functions.)
+
+* Click Next at the bottom of the page.
+
+* Skip the tags page and go to the bottom of the Review and Create Page and select Create Rule.
+
+* Go back to the EC2 Instance and see that it has stopped at the time that was specified earlier. (Click Refresh a few times if the Instance does not stop.)
+
+CREATE A CLOUDWATCH SCHEDULE TO START THE INSTANCE AT A CUSTOM TIME AUTOMATICALLY:
+
+* Repeat all the steps related to "Create a Cloudwatch Schedule to Stop the Instance at a Custom Time Automatically" with two exceptions:
+
+* 1) Give a different name for the rule
+  2) Select "startfunction" under the function dropdown box.
+
+
+
   
   
 
