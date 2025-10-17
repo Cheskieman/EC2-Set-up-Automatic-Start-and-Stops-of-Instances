@@ -16,7 +16,7 @@
 
 ---
 
-EC2 Instance Setup
+# **EC2 Instance Setup**
 
 **Select EC2 from AWS Searchbox and Select EC2 Pop up option**
 
@@ -59,25 +59,25 @@ EC2 Instance Setup
 **Search IAM and open Policies**
 
 <p align="center">  
-  <img src="resources/IAM_SEARCH_AND_SELECT_POLICIES.png" alt="Search IAM and select Policies" width="900" />  
+  <img src="resources/CREATEPOLICYSelectIAMsearchbox.png" alt="Search IAM and select Policies" width="900" />  
 </p>  
 
 **Click Create Policy**
 
 <p align="center">  
-  <img src="resources/IAM_CREATE_POLICY_BUTTON.png" alt="Create new IAM policy" width="900" />  
+  <img src="resources/CREATEPOLICYSelectCreatePolicybuttonInitial.png" alt="Create new IAM policy" width="900" />  
 </p>  
 
 **Select the JSON tab**
 
 <p align="center">  
-  <img src="resources/IAM_SELECT_JSON_TAB.png" alt="Select JSON tab in policy editor" width="900" />  
+  <img src="resources/CREATEPOLICYSelectJSONtab.png" alt="Select JSON tab in policy editor" width="900" />  
 </p>  
 
 **Insert custom policy code**
 
 <p align="center">  
-  <img src="resources/IAM_INSERT_CUSTOM_POLICY_JSON.png" alt="Insert custom JSON policy code" width="900" />  
+  <img src="resources/CREATEPOLICYActualPolicy.png" alt="Insert custom JSON policy code" width="900" />  
 </p>  
 
 **Click Next**
@@ -89,13 +89,13 @@ EC2 Instance Setup
 **Create a name for your policy**
 
 <p align="center">  
-  <img src="resources/IAM_NAME_POLICY.png" alt="Name the IAM policy" width="900" />  
+  <img src="resources/CREATEPOLICYGiveNametoPolicy.png" alt="Name the IAM policy" width="900" />  
 </p>  
 
 **Click Create Policy**
 
 <p align="center">  
-  <img src="resources/IAM_FINAL_CREATE_POLICY_BUTTON.png" alt="Click Create Policy button" width="900" />  
+  <img src="resources/CREATEPOLICYClickNextJSONTab.png" alt="Click Create Policy button" width="900" />  
 </p>  
 
 **Open Roles from the sidebar**
