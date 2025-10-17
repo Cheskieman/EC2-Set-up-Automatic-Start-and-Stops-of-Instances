@@ -12,53 +12,44 @@
 
 #### Step-by-Step Instructions on how to set up customizable times to both Start and Stop an EC2 Instance:
 
-Excellent — here’s how your **GitHub README** section should look using your resource directory, with **each text + image pair** neatly formatted and ready to paste directly into your README file.
-It uses consistent structure (`<p align="center">`), clean alt text, and `width="900"` for visual balance.
+
 
 ---
 
-# **EC2 Instance Setup**
+EC2 Instance Setup
 
-**Select Instance from Left-Handed Options**
+**Select EC2 from AWS Searchbox and Select EC2 Pop up option**
 
 <p align="center">  
-  <img src="resources/EC2_SELECT_INSTANCE_FROM_SIDEBAR.png" alt="Select Instance from AWS left-hand menu" width="900" />  
+  <img src="resources/EC2searchec2andselect.png" alt="Select Instance from AWS left-hand menu" width="900" />  
 </p>  
 
 **Select the Launch Instance tab**
 
 <p align="center">  
-  <img src="resources/EC2_SELECT_LAUNCH_INSTANCE_TAB.png" alt="Click Launch Instance tab" width="900" />  
+  <img src="resources/EC2LAUNCHINSTANCETABINITIAL.png" alt="Click Launch Instance tab" width="900" />  
 </p>  
 
-**Give your instance a name**
+**Give your instance a name & select an AMI for the instance** 
+<p align="center">  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCE NAMEANDAMI.png" alt="Enter instance name & select AMI for the Instance" width="900" />  
+</p>  
+
+
+**Select the instance type & Select the key pair**
 
 <p align="center">  
-  <img src="resources/EC2_NAME_INSTANCE.png" alt="Enter instance name" width="900" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESETUPINSTANCETYPEANDKEYPAIR.png" alt="Choose instance type & Select Keypair" width="900" />  
 </p>  
 
-**Select an AMI for the instance**
 
-<p align="center">  
-  <img src="resources/EC2_SELECT_AMI.png" alt="Choose AMI for EC2 instance" width="900" />  
-</p>  
 
-**Select the instance type**
 
-<p align="center">  
-  <img src="resources/EC2_SELECT_INSTANCE_TYPE.png" alt="Choose instance type" width="900" />  
-</p>  
-
-**Select the key pair**
-
-<p align="center">  
-  <img src="resources/EC2_SELECT_KEYPAIR.png" alt="Select key pair for EC2 instance" width="900" />  
-</p>  
 
 **Click Launch Instance at the bottom**
 
 <p align="center">  
-  <img src="resources/EC2_LAUNCH_INSTANCE_BUTTON.png" alt="Launch EC2 instance confirmation button" width="900" />  
+  <img src="resources/EC2INSTANCELAUNCHINSTANCESELECTLAUNCHINSTANCEBUTTON.png" alt="Launch EC2 instance confirmation buttoN" width="900" />  
 </p>  
 
 ---
