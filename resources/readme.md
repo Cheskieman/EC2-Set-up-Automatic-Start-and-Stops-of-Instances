@@ -11,135 +11,308 @@
 
 
 #### Step-by-Step Instructions on how to set up customizable times to both Start and Stop an EC2 Instance:
-EC2 INSTANCE SETUP
 
-* Select Instance from Left-Handed-Options
+Excellent — here’s how your **GitHub README** section should look using your resource directory, with **each text + image pair** neatly formatted and ready to paste directly into your README file.
+It uses consistent structure (`<p align="center">`), clean alt text, and `width="900"` for visual balance.
 
-* Select the LaunchInstance tab
+---
 
-* Give Your Instance a Name
+# **EC2 Instance Setup**
 
-* Select an AMI for the Instance
+**Select Instance from Left-Handed Options**
 
-* Select the Instance Type for the Instance
+<p align="center">  
+  <img src="resources/EC2_SELECT_INSTANCE_FROM_SIDEBAR.png" alt="Select Instance from AWS left-hand menu" width="900" />  
+</p>  
 
-* Select the keypair to be used for the Instance
+**Select the Launch Instance tab**
 
-* Select Launch Instance at the bottom
+<p align="center">  
+  <img src="resources/EC2_SELECT_LAUNCH_INSTANCE_TAB.png" alt="Click Launch Instance tab" width="900" />  
+</p>  
 
+**Give your instance a name**
 
+<p align="center">  
+  <img src="resources/EC2_NAME_INSTANCE.png" alt="Enter instance name" width="900" />  
+</p>  
 
-POLICIES
-* Search IAM from AWS Searchbox and then select Policies from the options.
+**Select an AMI for the instance**
 
-* Click Create Policy
+<p align="center">  
+  <img src="resources/EC2_SELECT_AMI.png" alt="Choose AMI for EC2 instance" width="900" />  
+</p>  
 
-* Select JSON Tab
+**Select the instance type**
 
-* Insert Custom Policy into the Policy Editor (as I illustrated below.)
+<p align="center">  
+  <img src="resources/EC2_SELECT_INSTANCE_TYPE.png" alt="Choose instance type" width="900" />  
+</p>  
 
-*Click Next
+**Select the key pair**
 
+<p align="center">  
+  <img src="resources/EC2_SELECT_KEYPAIR.png" alt="Select key pair for EC2 instance" width="900" />  
+</p>  
 
-* Create a Name for your Policy.
+**Click Launch Instance at the bottom**
 
+<p align="center">  
+  <img src="resources/EC2_LAUNCH_INSTANCE_BUTTON.png" alt="Launch EC2 instance confirmation button" width="900" />  
+</p>  
 
-* Click Create Policy at the bottom.
+---
 
+# **Policies**
 
-* Select Roles from left-handed-options.
+**Search IAM and open Policies**
 
+<p align="center">  
+  <img src="resources/IAM_SEARCH_AND_SELECT_POLICIES.png" alt="Search IAM and select Policies" width="900" />  
+</p>  
 
-* Select Create Role
+**Click Create Policy**
 
+<p align="center">  
+  <img src="resources/IAM_CREATE_POLICY_BUTTON.png" alt="Create new IAM policy" width="900" />  
+</p>  
 
-* Select Lambda from Service or Use Case Dropdown Box.
+**Select the JSON tab**
 
-* Select the policy that you previously created from the search box and drop-down options.
+<p align="center">  
+  <img src="resources/IAM_SELECT_JSON_TAB.png" alt="Select JSON tab in policy editor" width="900" />  
+</p>  
 
+**Insert custom policy code**
 
-* Select Next at the bottom.
+<p align="center">  
+  <img src="resources/IAM_INSERT_CUSTOM_POLICY_JSON.png" alt="Insert custom JSON policy code" width="900" />  
+</p>  
 
+**Click Next**
 
-* Give your Role a Name
+<p align="center">  
+  <img src="resources/IAM_NEXT_BUTTON.png" alt="Click Next to continue policy creation" width="900" />  
+</p>  
 
+**Create a name for your policy**
 
-* Select Create Role at the bottom.
+<p align="center">  
+  <img src="resources/IAM_NAME_POLICY.png" alt="Name the IAM policy" width="900" />  
+</p>  
 
+**Click Create Policy**
 
+<p align="center">  
+  <img src="resources/IAM_FINAL_CREATE_POLICY_BUTTON.png" alt="Click Create Policy button" width="900" />  
+</p>  
 
+**Open Roles from the sidebar**
 
-LAMBDA TEST THE INSTANCE BOTH STARTING AND STOPPING
+<p align="center">  
+  <img src="resources/IAM_SELECT_ROLES_SIDEBAR.png" alt="Select Roles from left-hand options" width="900" />  
+</p>  
 
-* Select Lambda after typing it in AWS Searchbox
+**Click Create Role**
 
-* Select Create Function
+<p align="center">  
+  <img src="resources/IAM_CREATE_ROLE_BUTTON.png" alt="Create new IAM role" width="900" />  
+</p>  
 
-* Give Your Function a name in the Function Name Box
+**Select Lambda as the service or use case**
 
-*Select Python 3.9 from the Runtime Dropdown box
+<p align="center">  
+  <img src="resources/IAM_SELECT_LAMBDA_SERVICE.png" alt="Select Lambda as the service use case" width="900" />  
+</p>  
 
-* Select Use an Existing Role from the Execution Role options
+**Attach the previously created policy**
 
-* Select the role that you created earlier from the Existing Role Dropdown box.
+<p align="center">  
+  <img src="resources/IAM_ATTACH_EXISTING_POLICY.png" alt="Attach existing IAM policy to role" width="900" />  
+</p>  
 
-* Select Create Function at the bottom.
+**Click Next**
 
+<p align="center">  
+  <img src="resources/IAM_NEXT_BUTTON_ROLE_CREATION.png" alt="Click Next during role creation" width="900" />  
+</p>  
 
-* Go back to the EC2 Instance Created Earlier and Copy the Instance ID 
+**Give your role a name**
 
+<p align="center">  
+  <img src="resources/IAM_ROLE_NAME_FIELD.png" alt="Enter IAM role name" width="900" />  
+</p>  
 
-*  Scroll Down to Code Source and type the code (as I illustrated below). REMEMBER TO INSERT YOUR INSTANCE ID THAT WAS COPIED FROM EARLIER .
+**Click Create Role**
 
-* Click Test Button from the left side of the code source. Followed by Creating a New test> Give Your New Test and Select Save.
+<p align="center">  
+  <img src="resources/IAM_FINAL_CREATE_ROLE_BUTTON.png" alt="Confirm Create Role" width="900" />  
+</p>  
 
-* Click Deploy in order to deploy the Python Code that was written(as illustrated above)
+---
 
-* Click Functions from Left-Handed-Options
+# **Lambda — Test Instance Start/Stop**
 
-* Select the Function that was Created
+**Open Lambda from the AWS search bar**
 
-* Select the Test from the Actions Dropdown list
+<p align="center">  
+  <img src="resources/LAMBDA_SEARCH.png" alt="Search and open Lambda service" width="900" />  
+</p>  
 
-* Go back to your Created Instance, Refresh the Instance and confirm that it says Stopping under Instance State.
+**Click Create Function**
 
-* REPEAT ALL THE STEPS RELATED TO LAMBDA FROM ABOVE. HOWEVER USE THE MODIFIED CODE IN CODE SOURCE(Illustrated Below.)
+<p align="center">  
+  <img src="resources/LAMBDA_CREATE_FUNCTION.png" alt="Click Create Function in Lambda" width="900" />  
+</p>  
 
+**Enter function name**
 
-CREATE A CLOUDWATCH SCHEDULE TO STOP THE INSTANCE AT A CUSTOM TIME AUTOMATICALLY :
+<p align="center">  
+  <img src="resources/LAMBDA_NAME_FUNCTION.png" alt="Enter Lambda function name" width="900" />  
+</p>  
 
-* Search for Cloudwatch from the AWS Searchbox & Select it.
+**Select Python 3.9 as runtime**
 
-* Select View Events on the Cloudwatch Page
+<p align="center">  
+  <img src="resources/LAMBDA_SELECT_PYTHON39.png" alt="Select Python 3.9 as runtime" width="900" />  
+</p>  
 
-* Select Create Rule
+**Use an existing role**
 
-* Give your rule a name
+<p align="center">  
+  <img src="resources/LAMBDA_SELECT_EXISTING_ROLE_OPTION.png" alt="Select Use an existing role option" width="900" />  
+</p>  
 
-*Switch the Rule Type to Schedule
+**Select the role created earlier**
 
-* On the bottom, Select Continue to Create Rule
+<p align="center">  
+  <img src="resources/LAMBDA_SELECT_EXISTING_ROLE.png" alt="Select the previously created IAM role" width="900" />  
+</p>  
 
-* In the schedule pattern dialog box, set the time for the instance to stop automatically at your desired future time (using the format shown in the image below).
+**Click Create Function at the bottom**
 
-* Click Next at the bottom of the page.
+<p align="center">  
+  <img src="resources/LAMBDA_CREATE_FUNCTION_CONFIRM.png" alt="Create Lambda function" width="900" />  
+</p>  
 
-* In the Select a Target dropdown box, select Lambda Function
+**Copy EC2 Instance ID from the instance details**
 
-* In the function dropdown box, select stop instance(created earlier when creating the Lambda Functions.)
+<p align="center">  
+  <img src="resources/EC2_COPY_INSTANCE_ID.png" alt="Copy EC2 instance ID" width="900" />  
+</p>  
 
-* Click Next at the bottom of the page.
+**Add Lambda function code and insert instance ID**
 
-* Skip the tags page and go to the bottom of the Review and Create Page and select Create Rule.
+<p align="center">  
+  <img src="resources/LAMBDA_ADD_CODE_AND_INSTANCE_ID.png" alt="Add Lambda code with EC2 instance ID" width="900" />  
+</p>  
 
-* Go back to the EC2 Instance and see that it has stopped at the time that was specified earlier. (Click Refresh a few times if the Instance does not stop.)
+**Create and run a new test**
 
-CREATE A CLOUDWATCH SCHEDULE TO START THE INSTANCE AT A CUSTOM TIME AUTOMATICALLY:
+<p align="center">  
+  <img src="resources/LAMBDA_CREATE_AND_RUN_TEST.png" alt="Create and execute Lambda test" width="900" />  
+</p>  
 
-* Repeat all the steps related to "Create a Cloudwatch Schedule to Stop the Instance at a Custom Time Automatically" with two exceptions:
+**Deploy the function code**
 
- 1) Give a different name for the rule
-  2) Select "startfunction" under the function dropdown box.
+<p align="center">  
+  <img src="resources/LAMBDA_DEPLOY_FUNCTION.png" alt="Deploy Lambda function" width="900" />  
+</p>  
+
+**Open Functions and select the created function**
+
+<p align="center">  
+  <img src="resources/LAMBDA_SELECT_CREATED_FUNCTION.png" alt="Select Lambda function" width="900" />  
+</p>  
+
+**Test the function from Actions dropdown**
+
+<p align="center">  
+  <img src="resources/LAMBDA_RUN_TEST_ACTIONS.png" alt="Test Lambda from Actions dropdown" width="900" />  
+</p>  
+
+**Check EC2 instance shows 'Stopping'**
+
+<p align="center">  
+  <img src="resources/EC2_INSTANCE_STOPPING_STATE.png" alt="Confirm EC2 instance stopping state" width="900" />  
+</p>  
+
+**Repeat steps with modified code to start instance**
+
+<p align="center">  
+  <img src="resources/LAMBDA_START_FUNCTION_CODE.png" alt="Lambda function code for starting EC2 instance" width="900" />  
+</p>  
+
+---
+
+# **Create CloudWatch Schedule (Stop Instance Automatically)**
+
+**Search CloudWatch and open it**
+
+<p align="center">  
+  <img src="resources/CLOUDWATCH_SEARCH.png" alt="Search and open CloudWatch" width="900" />  
+</p>  
+
+**Select View Events**
+
+<p align="center">  
+  <img src="resources/CLOUDWATCH_VIEW_EVENTS.png" alt="View events in CloudWatch" width="900" />  
+</p>  
+
+**Click Create Rule**
+
+<p align="center">  
+  <img src="resources/CLOUDWATCH_CREATE_RULE.png" alt="Create new CloudWatch rule" width="900" />  
+</p>  
+
+**Name the rule and select Schedule type**
+
+<p align="center">  
+  <img src="resources/CLOUDWATCH_NAME_AND_SELECT_SCHEDULE.png" alt="Name and choose Schedule rule type" width="900" />  
+</p>  
+
+**Continue and set custom schedule time**
+
+<p align="center">  
+  <img src="resources/CLOUDWATCH_SET_CUSTOM_SCHEDULE.png" alt="Set custom time for instance stop" width="900" />  
+</p>  
+
+**Choose Lambda function as target**
+
+<p align="center">  
+  <img src="resources/CLOUDWATCH_SELECT_LAMBDA_TARGET.png" alt="Select Lambda function as CloudWatch target" width="900" />  
+</p>  
+
+**Select stop function and create rule**
+
+<p align="center">  
+  <img src="resources/CLOUDWATCH_SELECT_STOP_FUNCTION.png" alt="Select stop instance Lambda function" width="900" />  
+</p>  
+
+**Verify EC2 instance stops at scheduled time**
+
+<p align="center">  
+  <img src="resources/EC2_INSTANCE_STOPPED.png" alt="EC2 instance stopped automatically" width="900" />  
+</p>  
+
+---
+
+# **Create CloudWatch Schedule (Start Instance Automatically)**
+
+**Repeat steps from stop schedule setup**
+
+<p align="center">  
+  <img src="resources/CLOUDWATCH_REPEAT_STEPS.png" alt="Repeat CloudWatch steps for start function" width="900" />  
+</p>  
+
+**Use a different rule name and select start function**
+
+<p align="center">  
+  <img src="resources/CLOUDWATCH_SELECT_START_FUNCTION.png" alt="Select start instance Lambda function" width="900" />  
+</p>  
+
+
+
 
 
 
