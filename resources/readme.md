@@ -21,7 +21,7 @@
 **Select EC2 from AWS Searchbox and Select EC2 Pop up option**
 
 <p align="center">  
-  <img src="resources/EC2searchec2andselect.png" alt="Select Instance from AWS left-hand menu" width="900" />  
+  <img src="resources/resources/EC2searchec2andselect.png" alt="Select Instance from AWS left-hand menu" width="900" />  
 </p>  
 
 **Select the Launch Instance tab**
