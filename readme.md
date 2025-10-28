@@ -125,7 +125,7 @@
 **Click Next**
 
 <p align="center">  
-  <img src="resources/IAM_NEXT_BUTTON_ROLE_CREATION.png" alt="Click Next during role creation" width="900" />  
+  <img src="resources/CREATEROLEClickNextafterselectingpreviouspolicy.png" alt="Click Next during role creation" width="900" />  
 </p>  
 
 **Give your role a name**
