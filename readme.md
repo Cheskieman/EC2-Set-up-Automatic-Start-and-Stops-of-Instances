@@ -83,7 +83,7 @@
 **Click Next**
 
 <p align="center">  
-  <img src="resources/IAM_NEXT_BUTTON.png" alt="Click Next to continue policy creation" width="900" />  
+  <img src="resources/CREATEROLEClickNextafterselectingpreviouspolicy.png" alt="Click Next to continue policy creation" width="900" />  
 </p>  
 
 **Create a name for your policy**
