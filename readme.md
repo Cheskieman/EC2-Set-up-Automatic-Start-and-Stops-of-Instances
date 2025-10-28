@@ -65,7 +65,7 @@
 **Click Create Policy**
 
 <p align="center">  
-  <img src="resources/CREATEPOLICYSelectCreatePolicybuttonInitial.png" alt="Create new IAM policy" width="900" />  
+  <img src="resources/CREATEPOLICYSelectCreatePolicybuttonend.png" alt="Create new IAM policy" width="900" />  
 </p>  
 
 **Select the JSON tab**
