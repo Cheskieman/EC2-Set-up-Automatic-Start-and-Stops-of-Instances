@@ -101,25 +101,25 @@
 **Open Roles from the sidebar**
 
 <p align="center">  
-  <img src="resources/IAM_SELECT_ROLES_SIDEBAR.png" alt="Select Roles from left-hand options" width="900" />  
+  <img src="resources/CREATEROLESSelectRolesFromOptions.png" alt="Select Roles from left-hand options" width="900" />  
 </p>  
 
 **Click Create Role**
 
 <p align="center">  
-  <img src="resources/IAM_CREATE_ROLE_BUTTON.png" alt="Create new IAM role" width="900" />  
+  <img src="resources/CREATEROLEClickCreateRoleend.png" alt="Create new IAM role" width="900" />  
 </p>  
 
 **Select Lambda as the service or use case**
 
 <p align="center">  
-  <img src="resources/IAM_SELECT_LAMBDA_SERVICE.png" alt="Select Lambda as the service use case" width="900" />  
+  <img src="resources/CREATEROLESSelectLamdaasusecase.png" alt="Select Lambda as the service use case" width="900" />  
 </p>  
 
 **Attach the previously created policy**
 
 <p align="center">  
-  <img src="resources/IAM_ATTACH_EXISTING_POLICY.png" alt="Attach existing IAM policy to role" width="900" />  
+  <img src="resources/CREATEROLESSearchforpreviouslycreatedpolicy.png" alt="Attach existing IAM policy to role" width="900" />  
 </p>  
 
 **Click Next**
@@ -131,13 +131,13 @@
 **Give your role a name**
 
 <p align="center">  
-  <img src="resources/IAM_ROLE_NAME_FIELD.png" alt="Enter IAM role name" width="900" />  
+  <img src="resources/CREATEROLEGiveyourRoleaname.png" alt="Enter IAM role name" width="900" />  
 </p>  
 
 **Click Create Role**
 
 <p align="center">  
-  <img src="resources/IAM_FINAL_CREATE_ROLE_BUTTON.png" alt="Confirm Create Role" width="900" />  
+  <img src="resources/CREATEROLEClickCreateRoleend.png" alt="Confirm Create Role" width="900" />  
 </p>  
 
 ---
