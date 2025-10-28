@@ -95,7 +95,7 @@
 **Click Create Policy**
 
 <p align="center">  
-  <img src="resources/CREATEPOLICYClickNextJSONTab.png" alt="Click Create Policy button" width="900" />  
+  <img src="resources/CREATEPOLICYSelectCreatePolicybuttonend.png" alt="Click Create Policy button" width="900" />  
 </p>  
 
 **Open Roles from the sidebar**
