@@ -147,31 +147,31 @@
 **Open Lambda from the AWS search bar**
 
 <p align="center">  
-  <img src="resources/LAMBDA_SEARCH.png" alt="Search and open Lambda service" width="900" />  
+  <img src="resources/LAMBDASelectLambdaAWSSearchbox.png" alt="Search and open Lambda service" width="900" />  
 </p>  
 
 **Click Create Function**
 
 <p align="center">  
-  <img src="resources/LAMBDA_CREATE_FUNCTION.png" alt="Click Create Function in Lambda" width="900" />  
+  <img src="resources/LAMBDACreateFunctionbuttonintial.png" alt="Click Create Function in Lambda" width="900" />  
 </p>  
 
 **Enter function name**
 
 <p align="center">  
-  <img src="resources/LAMBDA_NAME_FUNCTION.png" alt="Enter Lambda function name" width="900" />  
+  <img src="resources/LAMBDAGiveFunctioName.png" alt="Enter Lambda function name" width="900" />  
 </p>  
 
 **Select Python 3.9 as runtime**
 
 <p align="center">  
-  <img src="resources/LAMBDA_SELECT_PYTHON39.png" alt="Select Python 3.9 as runtime" width="900" />  
+  <img src="resources/LAMBDASelectRuntime.png" alt="Select Python 3.9 as runtime" width="900" />  
 </p>  
 
 **Use an existing role**
 
 <p align="center">  
-  <img src="resources/LAMBDA_SELECT_EXISTING_ROLE_OPTION.png" alt="Select Use an existing role option" width="900" />  
+  <img src="resources/LAMBDAExecutionroleSelectOption.png" alt="Select Use an existing role option" width="900" />  
 </p>  
 
 **Select the role created earlier**
