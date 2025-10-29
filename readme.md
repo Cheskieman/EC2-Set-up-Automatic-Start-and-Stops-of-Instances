@@ -177,37 +177,37 @@
 **Select the role created earlier**
 
 <p align="center">  
-  <img src="resources/LAMBDA_SELECT_EXISTING_ROLE.png" alt="Select the previously created IAM role" width="900" />  
+  <img src="resources/LAMBDASelectExistingRoleDropdown.png" alt="Select the previously created IAM role" width="900" />  
 </p>  
 
 **Click Create Function at the bottom**
 
 <p align="center">  
-  <img src="resources/LAMBDA_CREATE_FUNCTION_CONFIRM.png" alt="Create Lambda function" width="900" />  
+  <img src="resources/LAMBDACreateFunctionbuttonEND.png" alt="Create Lambda function" width="900" />  
 </p>  
 
 **Copy EC2 Instance ID from the instance details**
 
 <p align="center">  
-  <img src="resources/EC2_COPY_INSTANCE_ID.png" alt="Copy EC2 instance ID" width="900" />  
+  <img src="resources/LAMBDASelectInstanceID.png" alt="Copy EC2 instance ID" width="900" />  
 </p>  
 
-**Add Lambda function code and insert instance ID**
+**Add Lambda function code for stop instance and insert instance ID**
 
 <p align="center">  
-  <img src="resources/LAMBDA_ADD_CODE_AND_INSTANCE_ID.png" alt="Add Lambda code with EC2 instance ID" width="900" />  
+  <img src="resources/LAMBDASTOPINSTANCEPYTHONCODE.png" alt="Add Lambda code with EC2 instance ID" width="900" />  
 </p>  
 
 **Create and run a new test**
 
 <p align="center">  
-  <img src="resources/LAMBDA_CREATE_AND_RUN_TEST.png" alt="Create and execute Lambda test" width="900" />  
+  <img src="resources/LAMBDASelectTestButton.png" alt="Create and execute Lambda test" width="900" />  
 </p>  
 
 **Deploy the function code**
 
 <p align="center">  
-  <img src="resources/LAMBDA_DEPLOY_FUNCTION.png" alt="Deploy Lambda function" width="900" />  
+  <img src="resources/LAMBDAClickDeploy.png" alt="Deploy Lambda function" width="900" />  
 </p>  
 
 **Open Functions and select the created function**
