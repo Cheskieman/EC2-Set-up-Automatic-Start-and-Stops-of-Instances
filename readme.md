@@ -210,13 +210,18 @@
   <img src="resources/LAMBDAClickDeploy.png" alt="Deploy Lambda function" width="900" />  
 </p>  
 
-**Open Functions and select the created function**
+**Open Functions**
 
 <p align="center">  
-  <img src="resources/LAMBDA_SELECT_CREATED_FUNCTION.png" alt="Select Lambda function" width="900" />  
+  <img src="resources/LAMBDAClickFunctionsoptions.png" alt="Select Lambda function" width="900" />  
 </p>  
 
-**Test the function from Actions dropdown**
+ **Select the created function**
+<p align="center">  
+  <img src="resources/LAMBDASelectFunction.png" alt="Select Lambda function" width="900" />  
+</p>  
+
+**Test the function from the Actions dropdown**
 
 <p align="center">  
   <img src="resources/LAMBDA_RUN_TEST_ACTIONS.png" alt="Test Lambda from Actions dropdown" width="900" />  
