@@ -255,65 +255,79 @@
 **Search CloudWatch and open it**
 
 <p align="center">  
-  <img src="resources/CLOUDWATCH_SEARCH.png" alt="Search and open CloudWatch" width="900" />  
+  <img src="resources/SCHEDULESelectCloudwatchAWSSearch.png" alt="Search and open CloudWatch" width="900" />  
 </p>  
 
 **Select View Events**
 
 <p align="center">  
-  <img src="resources/CLOUDWATCH_VIEW_EVENTS.png" alt="View events in CloudWatch" width="900" />  
+  <img src="resources/SCHEDULESelectviewevent.png" alt="View events in CloudWatch" width="900" />  
 </p>  
 
 **Click Create Rule**
 
 <p align="center">  
-  <img src="resources/CLOUDWATCH_CREATE_RULE.png" alt="Create new CloudWatch rule" width="900" />  
+  <img src="resources/SCHEDULESelectCreateRule.png" alt="Create new CloudWatch rule" width="900" />  
 </p>  
 
 **Name the rule and select Schedule type**
 
 <p align="center">  
-  <img src="resources/CLOUDWATCH_NAME_AND_SELECT_SCHEDULE.png" alt="Name and choose Schedule rule type" width="900" />  
+  <img src="resources/SCHEDULESGiveRuleaName.png" alt="Name and choose Schedule rule type" width="900" />  
 </p>  
-
-**Continue and set custom schedule time**
 
 <p align="center">  
-  <img src="resources/CLOUDWATCH_SET_CUSTOM_SCHEDULE.png" alt="Set custom time for instance stop" width="900" />  
+  <img src="resources/SCHEDULESelectScheduledialogbox.png" alt="Name and choose Schedule rule type" width="900" />  
+</p> 
+
+**Click Continue to Create Rule**  
+
+<p align="center">  
+  <img src="resources/SCHEDULESelectContinuetoCreateRule.png" alt="Set custom time for instance stop" width="900" />  
 </p>  
+
+**Set custom schedule time**
+<p align="center">  
+  <img src="resources/SCHEDULESettimesStopInstances.png" alt="Set custom time for instance stop" width="900" />  
+</p>  
+
+
+
 
 **Choose Lambda function as target**
 
 <p align="center">  
-  <img src="resources/CLOUDWATCH_SELECT_LAMBDA_TARGET.png" alt="Select Lambda function as CloudWatch target" width="900" />  
+  <img src="resources/SCHEDULESelectaTargetforRule.png" alt="Select Lambda function as CloudWatch target" width="900" />  
 </p>  
 
 **Select stop function and create rule**
 
 <p align="center">  
-  <img src="resources/CLOUDWATCH_SELECT_STOP_FUNCTION.png" alt="Select stop instance Lambda function" width="900" />  
+  <img src="resources/SCHEDULESelectafunctionForRule.png" alt="Select stop instance Lambda function" width="900" />  
 </p>  
 
 **Verify EC2 instance stops at scheduled time**
 
 <p align="center">  
-  <img src="resources/EC2_INSTANCE_STOPPED.png" alt="EC2 instance stopped automatically" width="900" />  
+  <img src="resources/SCHEDULESINSTANCEACTUALLYSTOPPING.png" alt="EC2 instance stopped automatically" width="900" />  
 </p>  
 
 ---
 
 # **Create CloudWatch Schedule (Start Instance Automatically)**
 
-**Repeat steps from stop schedule setup**
+**Repeat steps from stop schedule setup, except for using a different rule name and selecting the start function**
 
-<p align="center">  
-  <img src="resources/CLOUDWATCH_REPEAT_STEPS.png" alt="Repeat CloudWatch steps for start function" width="900" />  
-</p>  
 
-**Use a different rule name and select start function**
+
 
 <p align="center">  
   <img src="resources/CLOUDWATCH_SELECT_START_FUNCTION.png" alt="Select start instance Lambda function" width="900" />  
+</p>  
+
+
+<p align="center">  
+  <img src="resources/SCHEDULESelectafunctionForRuleSECONDFUNCTION.png" alt="Select start instance Lambda function" width="900" />  
 </p>  
 
 
