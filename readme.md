@@ -2,7 +2,7 @@
 
 ## Full Step-by-Step guide with snapshots to describe and illustrate how an AWS EC2 Instance can start and stop at custom times
 
-### This project demonstrates how one can both test the stopping and starting of an EC2 Instance as well as scheduling both a customized stop and start time for an EC2 Instance. In this project, we will be covering how to:
+### This project demonstrates how to both test the stopping and starting of an EC2 Instance as well as scheduling both a customized stop and start time for an EC2 Instance. In this project, we will be covering how to:
 *Create an EC2 Instance 
 * Create a Lambda Function for both stopping and starting the created EC2 Instance
 *  Set up the appropriate policies to test both the stopping and starting of an EC2 Instance.
