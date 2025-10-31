@@ -224,13 +224,22 @@
 **Test the function from the Actions dropdown**
 
 <p align="center">  
-  <img src="resources/LAMBDA_RUN_TEST_ACTIONS.png" alt="Test Lambda from Actions dropdown" width="900" />  
+  <img src="resources/LAMBDASelectActionsbutton.png" alt="Test Lambda from Actions dropdown" width="900" />  
 </p>  
+
+
+**Click Test**
+
+<p align="center">  
+  <img src="resources/LAMBDAClickTest.png" alt="Test Lambda from Actions dropdown" width="900" />  
+</p>  
+
+
 
 **Check EC2 instance shows 'Stopping'**
 
 <p align="center">  
-  <img src="resources/EC2_INSTANCE_STOPPING_STATE.png" alt="Confirm EC2 instance stopping state" width="900" />  
+  <img src="resources/LAMBDATESTstoppingofEC2Instance REVISED.png" alt="Confirm EC2 instance stopping state" width="900" />  
 </p>  
 
 **Repeat steps with modified code to start instance**
