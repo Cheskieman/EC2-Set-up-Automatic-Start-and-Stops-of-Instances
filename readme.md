@@ -321,9 +321,7 @@
 
 
 
-<p align="center">  
-  <img src="resources/CLOUDWATCH_SELECT_START_FUNCTION.png" alt="Select start instance Lambda function" width="900" />  
-</p>  
+
 
 
 <p align="center">  
